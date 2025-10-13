@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROMPT-RED | Red Team Operations Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="terminal">
+            <div class="terminal-header">
+                <div class="terminal-title">PROMPT-RED Terminal</div>
+                <div class="terminal-controls">
+                    <span class="control minimize">_</span>
+                    <span class="control maximize">□</span>
+                    <span class="control close">×</span>
+                </div>
+            </div>
+            <div class="terminal-body">
+                <div id="banner" class="banner"></div>
+                <div id="output" class="output"></div>
+                <div class="input-line">
+                    <span class="prompt">root@prompt-red:~#</span>
+                    <input type="text" id="command-input" class="command-input" autofocus autocomplete="off" spellcheck="false">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
